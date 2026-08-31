@@ -1,0 +1,104 @@
+[
+  {
+    "course_id": "train_d1_s500_low_hurdle",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d1_s501_low_platform_short",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "validation_d2_s502_low_platform_body_width",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d2_s503_triangular_mound",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d2_s504_staircase_plateau",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d2_s505_asymmetric_terrace",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d3_s506_narrow_high_hurdle",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "validation_d3_s507_short_high_block",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "validation_d3_s508_double_peak",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "holdout_d3_s509_stepped_wave",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "holdout_d3_s510_terraced_wedge",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "holdout_d3_s511_broad_mound",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d1_s601_low_hurdle-low_hurdle-low_hurdle-low_platform_short",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d2_s602_staircase_plateau-low_platform_short-triangular_mound-asymmetric_terrace-triangular_mound",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "train_d3_s603_low_platform_short-asymmetric_terrace-asymmetric_terrace-triangular_mound-staircase_plateau-low_hurdle",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "validation_d3_s604_low_platform_body_width-low_platform_body_width-short_high_block-short_high_block",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  },
+  {
+    "course_id": "holdout_d3_s605_stepped_wave-broad_mound-terraced_wedge-broad_mound",
+    "steps": 10,
+    "finite": true,
+    "unstable": false
+  }
+]

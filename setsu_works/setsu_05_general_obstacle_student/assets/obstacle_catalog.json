@@ -1,0 +1,206 @@
+[
+  {
+    "name": "low_hurdle",
+    "heights": [
+      1
+    ],
+    "family": "hurdle",
+    "intended_skill": "step_over",
+    "difficulty": 1,
+    "split": "train",
+    "empirical_status": "teacher_verified",
+    "description": "一体素の低い壁で、既存教師による通過証拠がある。",
+    "width": 1,
+    "max_height": 1
+  },
+  {
+    "name": "low_platform_short",
+    "heights": [
+      1,
+      1,
+      1
+    ],
+    "family": "platform",
+    "intended_skill": "climb_walk_down",
+    "difficulty": 1,
+    "split": "train",
+    "empirical_status": "geometry_screened",
+    "description": "低く短い台で、登った後も歩行を継続できる。",
+    "width": 3,
+    "max_height": 1
+  },
+  {
+    "name": "low_platform_body_width",
+    "heights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "family": "platform",
+    "intended_skill": "climb_walk_down",
+    "difficulty": 2,
+    "split": "validation",
+    "empirical_status": "geometry_screened",
+    "description": "幅が身体一個分に等しい低い台。",
+    "width": 5,
+    "max_height": 1
+  },
+  {
+    "name": "triangular_mound",
+    "heights": [
+      1,
+      2,
+      1
+    ],
+    "family": "mound",
+    "intended_skill": "step_up_and_down",
+    "difficulty": 2,
+    "split": "train",
+    "empirical_status": "geometry_screened",
+    "description": "体素を積み上げた三角形輪郭の小丘。",
+    "width": 3,
+    "max_height": 2
+  },
+  {
+    "name": "staircase_plateau",
+    "heights": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "family": "stairs",
+    "intended_skill": "stair_walk",
+    "difficulty": 2,
+    "split": "train",
+    "empirical_status": "geometry_screened",
+    "description": "二段の上昇、短い台、二段の下降からなる階段。",
+    "width": 6,
+    "max_height": 2
+  },
+  {
+    "name": "asymmetric_terrace",
+    "heights": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    "family": "terrace",
+    "intended_skill": "asymmetric_step_control",
+    "difficulty": 2,
+    "split": "train",
+    "empirical_status": "geometry_screened",
+    "description": "上りと下りの長さが異なる非対称台地。",
+    "width": 6,
+    "max_height": 2
+  },
+  {
+    "name": "narrow_high_hurdle",
+    "heights": [
+      2
+    ],
+    "family": "jump_wall",
+    "intended_skill": "jump_or_climb",
+    "difficulty": 3,
+    "split": "train",
+    "empirical_status": "morphology_upper_bound",
+    "description": "高さが身体有効高の半分である細い壁。",
+    "width": 1,
+    "max_height": 2
+  },
+  {
+    "name": "short_high_block",
+    "heights": [
+      2,
+      2
+    ],
+    "family": "jump_wall",
+    "intended_skill": "jump_or_climb",
+    "difficulty": 3,
+    "split": "validation",
+    "empirical_status": "morphology_upper_bound",
+    "description": "高さ二、幅二の短い高壁。",
+    "width": 2,
+    "max_height": 2
+  },
+  {
+    "name": "double_peak",
+    "heights": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "family": "wave",
+    "intended_skill": "repeated_step_control",
+    "difficulty": 3,
+    "split": "validation",
+    "empirical_status": "geometry_screened",
+    "description": "二つの連続峰からなる波状輪郭。",
+    "width": 5,
+    "max_height": 2
+  },
+  {
+    "name": "stepped_wave",
+    "heights": [
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "family": "wave",
+    "intended_skill": "unseen_repeated_steps",
+    "difficulty": 3,
+    "split": "holdout",
+    "empirical_status": "geometry_screened",
+    "description": "訓練中に現れない長い波状積層組合せ。",
+    "width": 7,
+    "max_height": 2
+  },
+  {
+    "name": "terraced_wedge",
+    "heights": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "family": "wedge",
+    "intended_skill": "unseen_asymmetric_mound",
+    "difficulty": 3,
+    "split": "holdout",
+    "empirical_status": "geometry_screened",
+    "description": "階段状体素からなる非矩形のくさび形障害物。",
+    "width": 4,
+    "max_height": 2
+  },
+  {
+    "name": "broad_mound",
+    "heights": [
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    "family": "mound",
+    "intended_skill": "unseen_broad_peak",
+    "difficulty": 3,
+    "split": "holdout",
+    "empirical_status": "geometry_screened",
+    "description": "頂部が広く、両側を段階的に上り下りできる小丘。",
+    "width": 5,
+    "max_height": 2
+  }
+]

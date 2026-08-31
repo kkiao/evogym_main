@@ -1,0 +1,19 @@
+{
+  "version": "long_legged_gap3_curriculum_v1",
+  "level": 0,
+  "name": "flat_walk_and_restart",
+  "width": 35,
+  "height": 8,
+  "finish_x": 25,
+  "max_steps": 900,
+  "robot_start": [
+    2,
+    1
+  ],
+  "body_width_voxels": 5,
+  "gap_body_widths": 3,
+  "gap_voxels": 15,
+  "obstacle_count": 0,
+  "obstacles": [],
+  "description": "平地歩行の事前学習"
+}

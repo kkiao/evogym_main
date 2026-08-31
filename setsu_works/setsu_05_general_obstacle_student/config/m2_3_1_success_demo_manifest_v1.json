@@ -1,0 +1,75 @@
+{
+  "version": "m2_3_1_success_rescue_demo_manifest_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "purpose": "training_rescue_teacher_demonstration_audit_only",
+  "student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "excluded_sources": [
+    "m2_1_preventive_near6_v1",
+    "all_failed_branches",
+    "m2_3_prefix_rescue_teacher_seed7_v1"
+  ],
+  "candidates": [
+    {
+      "run_name": "m2_1_preventive_near6_v2",
+      "profile": "m2_1_near6",
+      "seed": 100004,
+      "start_runway_voxels": 25,
+      "course_id": "train_hurdle_single_d1_s100004_x25_low_hurdle",
+      "expected_steps": 973,
+      "expected_teacher_steps": 647,
+      "summary_path": "runs/interactive_rescue_collection/m2_1_preventive_near6_v2/summary.json",
+      "summary_sha256": "74b5110e8f0c7dd935dc6d649f418b7234395ba198bd44a3cb9840572cb5e6a6",
+      "branch_path": "runs/interactive_rescue_collection/m2_1_preventive_near6_v2/branches/seed_100004_x25_rescued.npz",
+      "branch_sha256": "8b7dce8e68e37ba65a0607f42e7ff475e3e705179356c19871df0ff1a6fbfc10",
+      "sidecar_path": "runs/interactive_rescue_collection/m2_1_preventive_near6_v2/branches/seed_100004_x25_rescued.json",
+      "sidecar_sha256": "e70fc905b5a2ac62435b8c650966cc67b5489c9c93f74a6f879d7084794cb8c4"
+    },
+    {
+      "run_name": "m2_1_preventive_near8_v2",
+      "profile": "m2_1_near8",
+      "seed": 100001,
+      "start_runway_voxels": 22,
+      "course_id": "train_hurdle_single_d1_s100001_x22_low_hurdle",
+      "expected_steps": 984,
+      "expected_teacher_steps": 671,
+      "summary_path": "runs/interactive_rescue_collection/m2_1_preventive_near8_v2/summary.json",
+      "summary_sha256": "342fddb4f7ace2ba1753fa40de96e45c50899f16825cf7de267f9a58d0d96b05",
+      "branch_path": "runs/interactive_rescue_collection/m2_1_preventive_near8_v2/branches/seed_100001_x22_rescued.npz",
+      "branch_sha256": "edeb84b5cb816ad552f77406eedf3d18c6d3553b54bab0a2edd4d5e614a71fe2",
+      "sidecar_path": "runs/interactive_rescue_collection/m2_1_preventive_near8_v2/branches/seed_100001_x22_rescued.json",
+      "sidecar_sha256": "a1cf09c5f151b68859fba389b81d497af9f2a21fc33942333a012082091f47a8"
+    },
+    {
+      "run_name": "m2_1_preventive_near10_v2",
+      "profile": "m2_1_near10",
+      "seed": 100000,
+      "start_runway_voxels": 27,
+      "course_id": "train_hurdle_single_d1_s100000_x27_low_hurdle",
+      "expected_steps": 1057,
+      "expected_teacher_steps": 747,
+      "summary_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/summary.json",
+      "summary_sha256": "54b0557e90dafd78fbc533cb922245ac1d24c5bd3f31970dd2a9ac5868cdda7c",
+      "branch_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/branches/seed_100000_x27_rescued.npz",
+      "branch_sha256": "2d2876f07a74d7b4f86a73e2b1ec91373da1e3bca2a41f1c475e4efd916fdce7",
+      "sidecar_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/branches/seed_100000_x27_rescued.json",
+      "sidecar_sha256": "bfdaddecfbe616299d550a642580fe669e2660bc80911ab6d7447eaf78433921"
+    },
+    {
+      "run_name": "m2_1_preventive_near10_v2",
+      "profile": "m2_1_near10",
+      "seed": 100008,
+      "start_runway_voxels": 28,
+      "course_id": "train_hurdle_single_d1_s100008_x28_low_hurdle",
+      "expected_steps": 1031,
+      "expected_teacher_steps": 724,
+      "summary_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/summary.json",
+      "summary_sha256": "54b0557e90dafd78fbc533cb922245ac1d24c5bd3f31970dd2a9ac5868cdda7c",
+      "branch_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/branches/seed_100008_x28_rescued.npz",
+      "branch_sha256": "dc8bbb9b96ed64086fb2179728c61f15a209b9ec523bf0d3544a6e20934bb2d0",
+      "sidecar_path": "runs/interactive_rescue_collection/m2_1_preventive_near10_v2/branches/seed_100008_x28_rescued.json",
+      "sidecar_sha256": "b910974d631c0d327013112e0447dafbcee869df4c6fbd9f8a83b33ec80d3ef9"
+    }
+  ]
+}

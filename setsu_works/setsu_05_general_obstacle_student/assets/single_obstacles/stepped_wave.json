@@ -1,0 +1,39 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "holdout_d3_s110_stepped_wave",
+  "split": "holdout",
+  "seed": 110,
+  "difficulty": 3,
+  "width": 52,
+  "height": 10,
+  "finish_x": 47,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "stepped_wave",
+      "heights": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "family": "wave",
+      "intended_skill": "unseen_repeated_steps",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "訓練中に現れない長い波状積層組合せ。",
+      "width": 7,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 26
+    }
+  ]
+}

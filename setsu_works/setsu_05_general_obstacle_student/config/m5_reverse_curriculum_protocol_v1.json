@@ -1,0 +1,47 @@
+{
+  "version": "m5_reverse_curriculum_protocol_v1",
+  "frozen": true,
+  "source_model_path": "training_only_teacher/generated/noisy_flat_runs/noisy_flat_seed7_v1/best_model.zip",
+  "source_model_sha256": "eb79b51bda1093dcc02715c42d49ffce786aac5278214ccad605a4d5e6a7a253",
+  "phase_reset_manifest_path": "runs/phase_reset_curriculum_audit/m2_3_5a_phase_reset_audit_v1/phase_reset_manifest.json",
+  "phase_reset_manifest_sha256": "3b448d8b9057ccd1af8fe79a1eaf1ceb66f05f8629d952c96217a6791baa343a",
+  "seed_manifest_path": "config/seed_manifest_v1.json",
+  "seed_manifest_sha256": "20badd034be77d93db12f464556fc495e1ef57014ffa088e60af51e7a1f29706",
+  "device": "cpu",
+  "parallel_environments": 8,
+  "checkpoint_interval_steps": 12288,
+  "maximum_student_steps_per_episode": 1200,
+  "teacher_actions_after_student_takeover": 0,
+  "validation_teacher_enabled": false,
+  "holdout_teacher_enabled": false,
+  "holdout_episodes": 0,
+  "extension_steps": 49152,
+  "plateau_window_checkpoints": 3,
+  "curriculum": [
+    {
+      "name": "stable_finish",
+      "steps": 24576,
+      "weights": {"stable_finish": 0.70, "flat": 0.30}
+    },
+    {
+      "name": "post_clearance_recovery",
+      "steps": 24576,
+      "weights": {"post_clearance_recovery": 0.55, "stable_finish": 0.20, "flat": 0.25}
+    },
+    {
+      "name": "hurdle_deformation",
+      "steps": 36864,
+      "weights": {"hurdle_deformation": 0.40, "post_clearance_recovery": 0.25, "stable_finish": 0.15, "flat": 0.20}
+    },
+    {
+      "name": "pre_hurdle",
+      "steps": 49152,
+      "weights": {"pre_hurdle": 0.35, "hurdle_deformation": 0.25, "post_clearance_recovery": 0.15, "stable_finish": 0.10, "flat": 0.15}
+    },
+    {
+      "name": "full_start",
+      "steps": 61440,
+      "weights": {"full_start": 0.45, "pre_hurdle": 0.20, "hurdle_deformation": 0.10, "post_clearance_recovery": 0.10, "stable_finish": 0.05, "flat": 0.10}
+    }
+  ]
+}

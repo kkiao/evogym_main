@@ -1,0 +1,36 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "holdout_d3_s111_terraced_wedge",
+  "split": "holdout",
+  "seed": 111,
+  "difficulty": 3,
+  "width": 49,
+  "height": 10,
+  "finish_x": 44,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "terraced_wedge",
+      "heights": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "family": "wedge",
+      "intended_skill": "unseen_asymmetric_mound",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "階段状体素からなる非矩形のくさび形障害物。",
+      "width": 4,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 23
+    }
+  ]
+}

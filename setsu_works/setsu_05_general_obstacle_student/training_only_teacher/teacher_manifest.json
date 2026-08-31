@@ -1,0 +1,31 @@
+{
+  "version": "m2_3_5f_separated_training_teacher_manifest_submission_v1",
+  "frozen": true,
+  "teacher_training_only": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "purpose_ja": "教師は訓練中の実演と救援だけに使用し、検証、留保、最終学生試験では完全に停止する。",
+  "student_takeover_curriculum": {
+    "reinitialize_at_takeover": true,
+    "routes": {
+      "20": {"first_switch_fraction": 0.5, "post_clear_mode": "landing_then_restart", "handoff_distance": 0.25, "clearance_blend": 0.9, "clearance_family": "second", "adaptive_handoff": true},
+      "23": {"first_switch_fraction": 0.35, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 1.0, "clearance_family": "first", "adaptive_handoff": true},
+      "24": {"first_switch_fraction": 0.5, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 1.0, "clearance_family": "second", "adaptive_handoff": true},
+      "25": {"first_switch_fraction": 0.25, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 1.0, "clearance_family": "first", "adaptive_handoff": true},
+      "26": {"first_switch_fraction": 0.5, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 1.0, "clearance_family": "first", "adaptive_handoff": true},
+      "27": {"first_switch_fraction": 0.5, "post_clear_mode": "landing_then_restart", "handoff_distance": 0.35, "clearance_blend": 1.0, "clearance_family": "second", "adaptive_handoff": false},
+      "28": {"first_switch_fraction": 0.25, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 1.0, "clearance_family": "first", "adaptive_handoff": true},
+      "29": {"first_switch_fraction": 0.35, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.45, "clearance_blend": 0.8, "clearance_family": "first", "adaptive_handoff": true},
+      "30": {"first_switch_fraction": 0.5, "post_clear_mode": "restart_then_flat", "handoff_distance": 0.35, "clearance_blend": 0.9, "clearance_family": "second", "adaptive_handoff": false}
+    },
+    "uncovered_positions": [21, 22],
+    "uncovered_fallback": "portfolio_height1_teacher_v1"
+  },
+  "student_observation_privileged": false,
+  "teacher_may_use_training_context": true,
+  "validation_teacher_enabled": false,
+  "holdout_teacher_enabled": false,
+  "final_student_test_teacher_enabled": false,
+  "teacher_interventions_in_final_student_test": 0,
+  "eligible_for_m2_4": true
+}

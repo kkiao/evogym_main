@@ -1,0 +1,16 @@
+{
+  "run_name": "final_original_seed7",
+  "algorithm": "PPO",
+  "course_version": "mixed_obstacles_v1",
+  "environment_version": "movable_com_clear_v6",
+  "completed_timesteps": 100352,
+  "target_timesteps": 100000,
+  "best_score": [
+    0.0,
+    3.0,
+    4.017283948593097,
+    10.709471646676384
+  ],
+  "best_timesteps": 0,
+  "updated_at_utc": "2026-08-29T19:56:30.778128+00:00"
+}

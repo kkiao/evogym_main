@@ -1,0 +1,35 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d2_s104_triangular_mound",
+  "split": "train",
+  "seed": 104,
+  "difficulty": 2,
+  "width": 48,
+  "height": 10,
+  "finish_x": 43,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "triangular_mound",
+      "heights": [
+        1,
+        2,
+        1
+      ],
+      "family": "mound",
+      "intended_skill": "step_up_and_down",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "体素を積み上げた三角形輪郭の小丘。",
+      "width": 3,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 22
+    }
+  ]
+}

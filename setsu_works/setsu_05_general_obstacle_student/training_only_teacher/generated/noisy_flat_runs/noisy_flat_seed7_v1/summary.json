@@ -1,0 +1,1214 @@
+{
+  "completed_steps": 50000,
+  "best_step": 50000,
+  "best_score": [
+    1.0,
+    -0.0,
+    3.003054994322811
+  ],
+  "noise_std": 0.01,
+  "noise_probability": 0.01,
+  "target_x": 3.0,
+  "evaluations": [
+    {
+      "step": 0,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 988,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001237744936217,
+          "disturbance_count": 11
+        },
+        {
+          "episode": 1,
+          "steps": 990,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0016990130039773,
+          "disturbance_count": 9
+        },
+        {
+          "episode": 2,
+          "steps": 979,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002177470242605,
+          "disturbance_count": 17
+        },
+        {
+          "episode": 3,
+          "steps": 985,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0008740720932985,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 4,
+          "steps": 1000,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001461655307333,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 5,
+          "steps": 976,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0011575418033396,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 6,
+          "steps": 994,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0003157931375015,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 993,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0021757656893002,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 978,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0023152128758475,
+          "disturbance_count": 21
+        },
+        {
+          "episode": 9,
+          "steps": 979,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0023991901250806,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 10,
+          "steps": 981,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002255617665451,
+          "disturbance_count": 15
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.001642643352723
+    },
+    {
+      "step": 5000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 967,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00275001042309,
+          "disturbance_count": 10
+        },
+        {
+          "episode": 1,
+          "steps": 963,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0007794574328273,
+          "disturbance_count": 9
+        },
+        {
+          "episode": 2,
+          "steps": 963,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0009706459895553,
+          "disturbance_count": 15
+        },
+        {
+          "episode": 3,
+          "steps": 963,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0021123366170173,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 4,
+          "steps": 992,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000318667496485,
+          "disturbance_count": 11
+        },
+        {
+          "episode": 5,
+          "steps": 954,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0006283213034073,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 6,
+          "steps": 988,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0015164099857627,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 969,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001006298216602,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 949,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0024778274068757,
+          "disturbance_count": 21
+        },
+        {
+          "episode": 9,
+          "steps": 1016,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0018514282790654,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 10,
+          "steps": 973,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0014497469763897,
+          "disturbance_count": 15
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.0014419227388256
+    },
+    {
+      "step": 10000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 1013,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0026519540342016,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 1,
+          "steps": 985,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0015109722566193,
+          "disturbance_count": 9
+        },
+        {
+          "episode": 2,
+          "steps": 979,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00145599282159,
+          "disturbance_count": 17
+        },
+        {
+          "episode": 3,
+          "steps": 1004,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000223646250332,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 4,
+          "steps": 976,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000296664518757,
+          "disturbance_count": 11
+        },
+        {
+          "episode": 5,
+          "steps": 1021,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000144745457576,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 6,
+          "steps": 995,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0008349293577026,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 1015,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001486909556533,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 979,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0011107527059067,
+          "disturbance_count": 21
+        },
+        {
+          "episode": 9,
+          "steps": 997,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001595678392123,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 10,
+          "steps": 988,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001392693720819,
+          "disturbance_count": 15
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.001154994461105
+    },
+    {
+      "step": 15000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 925,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0020069578453072,
+          "disturbance_count": 9
+        },
+        {
+          "episode": 1,
+          "steps": 911,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0023707675307905,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 2,
+          "steps": 920,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00231208585733,
+          "disturbance_count": 14
+        },
+        {
+          "episode": 3,
+          "steps": 927,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0017379712616417,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 4,
+          "steps": 907,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001017413143311,
+          "disturbance_count": 9
+        },
+        {
+          "episode": 5,
+          "steps": 927,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000443235021962,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 6,
+          "steps": 942,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0026079024303933,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 913,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0022580548520903,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 917,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0026156424684642,
+          "disturbance_count": 20
+        },
+        {
+          "episode": 9,
+          "steps": 938,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001885791650991,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 10,
+          "steps": 920,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0020674365233453,
+          "disturbance_count": 15
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.0019384780532388
+    },
+    {
+      "step": 20000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 1067,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0016123282964045,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 1,
+          "steps": 1053,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001764778644562,
+          "disturbance_count": 10
+        },
+        {
+          "episode": 2,
+          "steps": 1037,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000218580473939,
+          "disturbance_count": 17
+        },
+        {
+          "episode": 3,
+          "steps": 1019,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0005952654737995,
+          "disturbance_count": 14
+        },
+        {
+          "episode": 4,
+          "steps": 1033,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001889914681675,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 5,
+          "steps": 1060,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001154101683868,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 6,
+          "steps": 995,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000745192872099,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 1040,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001347086380464,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 8,
+          "steps": 995,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0014616642637777,
+          "disturbance_count": 21
+        },
+        {
+          "episode": 9,
+          "steps": 1030,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000127152232109,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 10,
+          "steps": 1012,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0016376088287235,
+          "disturbance_count": 15
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.001141243075584
+    },
+    {
+      "step": 25000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 763,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0016429242094627,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 1,
+          "steps": 777,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0031536708513182,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 2,
+          "steps": 783,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0008758192920304,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 3,
+          "steps": 767,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000479805301829,
+          "disturbance_count": 10
+        },
+        {
+          "episode": 4,
+          "steps": 781,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00251799301301,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 5,
+          "steps": 770,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0026713830434573,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 6,
+          "steps": 770,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003006026832731,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 7,
+          "steps": 770,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002042117017543,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 775,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0026299127751783,
+          "disturbance_count": 14
+        },
+        {
+          "episode": 9,
+          "steps": 780,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0002661054625026,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 10,
+          "steps": 770,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0001783335701138,
+          "disturbance_count": 13
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.001769462851743
+    },
+    {
+      "step": 30000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 879,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0000721215526567,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 1,
+          "steps": 869,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003101493094969,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 2,
+          "steps": 875,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0010100229310743,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 3,
+          "steps": 877,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0008707663918313,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 4,
+          "steps": 853,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000843932177299,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 5,
+          "steps": 854,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0009352941507927,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 6,
+          "steps": 878,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0021297273668885,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 7,
+          "steps": 853,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001344776623353,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 856,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0019889071754293,
+          "disturbance_count": 17
+        },
+        {
+          "episode": 9,
+          "steps": 868,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0009882805466153,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 10,
+          "steps": 861,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0000888016811893,
+          "disturbance_count": 14
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.0012158294265543
+    },
+    {
+      "step": 35000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 677,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0020503517664934,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 1,
+          "steps": 693,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003807910034429,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 2,
+          "steps": 705,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000416513413714,
+          "disturbance_count": 11
+        },
+        {
+          "episode": 3,
+          "steps": 693,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001805994201169,
+          "disturbance_count": 8
+        },
+        {
+          "episode": 4,
+          "steps": 685,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0040759698081527,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 5,
+          "steps": 696,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0032283777539917,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 6,
+          "steps": 682,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002546963853897,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 7,
+          "steps": 694,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001819596949698,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 8,
+          "steps": 697,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0027218672346883,
+          "disturbance_count": 13
+        },
+        {
+          "episode": 9,
+          "steps": 698,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003560607470961,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 10,
+          "steps": 697,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0038554341831154,
+          "disturbance_count": 12
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.002717235151846
+    },
+    {
+      "step": 40000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 610,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001775799917372,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 1,
+          "steps": 595,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000687463242643,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 2,
+          "steps": 594,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0020218821080333,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 3,
+          "steps": 596,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000669055083519,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 4,
+          "steps": 609,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001558977439735,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 5,
+          "steps": 596,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00339238861176,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 6,
+          "steps": 607,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001142397791041,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 7,
+          "steps": 591,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0018123252482805,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 8,
+          "steps": 590,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002573779188238,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 9,
+          "steps": 594,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002956749648046,
+          "disturbance_count": 3
+        },
+        {
+          "episode": 10,
+          "steps": 593,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001522583940563,
+          "disturbance_count": 11
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.0018284911108397
+    },
+    {
+      "step": 45000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 579,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000369842852257,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 1,
+          "steps": 583,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0027807588308537,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 2,
+          "steps": 585,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.004236216590378,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 3,
+          "steps": 581,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0009466620400054,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 4,
+          "steps": 584,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0039702613200863,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 5,
+          "steps": 574,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0024710201637155,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 6,
+          "steps": 578,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.004686675486065,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 7,
+          "steps": 578,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001805161788744,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 8,
+          "steps": 577,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.004125444157357,
+          "disturbance_count": 12
+        },
+        {
+          "episode": 9,
+          "steps": 582,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0032578032416244,
+          "disturbance_count": 3
+        },
+        {
+          "episode": 10,
+          "steps": 579,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.001173938002316,
+          "disturbance_count": 11
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.0027112531339455
+    },
+    {
+      "step": 50000,
+      "episodes": [
+        {
+          "episode": 0,
+          "steps": 566,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0051998005337737,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 1,
+          "steps": 558,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.002381149247464,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 2,
+          "steps": 564,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003611133107222,
+          "disturbance_count": 7
+        },
+        {
+          "episode": 3,
+          "steps": 557,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003156837256835,
+          "disturbance_count": 6
+        },
+        {
+          "episode": 4,
+          "steps": 552,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.00068970528285,
+          "disturbance_count": 5
+        },
+        {
+          "episode": 5,
+          "steps": 568,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.003121097574169,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 6,
+          "steps": 564,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0027999947665136,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 7,
+          "steps": 566,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.004949745101688,
+          "disturbance_count": 4
+        },
+        {
+          "episode": 8,
+          "steps": 558,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.0022148527197565,
+          "disturbance_count": 11
+        },
+        {
+          "episode": 9,
+          "steps": 565,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.000348129074761,
+          "disturbance_count": 2
+        },
+        {
+          "episode": 10,
+          "steps": 563,
+          "reached_target": true,
+          "hard_fall": false,
+          "failure_reason": "",
+          "maximum_com_x": 3.005132492885887,
+          "disturbance_count": 10
+        }
+      ],
+      "success_count": 11,
+      "success_rate": 1.0,
+      "hard_fall_count": 0,
+      "hard_fall_rate": 0.0,
+      "mean_max_x": 3.003054994322811
+    }
+  ],
+  "flat_robustness_gate_passed": true
+}

@@ -1,0 +1,418 @@
+{
+  "teacher": "closed_loop_specialist_portfolio_v1",
+  "environment_observation_dimension": 95,
+  "student_privileged_inputs": false,
+  "teacher_routing_is_training_only": true,
+  "episodes": [
+    {
+      "position": 20,
+      "profile": "raw_recovery",
+      "seed": 84000,
+      "steps": 1142,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 27.990841692536108,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.101500283060241,
+      "events": [
+        {
+          "step": 0,
+          "stage": "raw_recovery:flat"
+        },
+        {
+          "step": 471,
+          "stage": "raw_recovery:first_to_50"
+        },
+        {
+          "step": 564,
+          "stage": "raw_recovery:first_safe_to_full"
+        },
+        {
+          "step": 578,
+          "stage": "raw_recovery:first_to_50"
+        },
+        {
+          "step": 580,
+          "stage": "raw_recovery:first_safe_to_full"
+        },
+        {
+          "step": 613,
+          "stage": "raw_recovery:raw_recovery"
+        },
+        {
+          "step": 750,
+          "stage": "raw_recovery:flat_finish"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 21,
+      "profile": "early_direct",
+      "seed": 84001,
+      "steps": 1121,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 26.681394241966984,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.200123899960909,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 508,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 591,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 645,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 712,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 22,
+      "profile": "early_direct",
+      "seed": 84002,
+      "steps": 1132,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 26.78634336867809,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.302358135932224,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 532,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 613,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 667,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 743,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 23,
+      "profile": "half_recovery",
+      "seed": 84003,
+      "steps": 939,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 26.364683705928304,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.406770173303282,
+      "events": [
+        {
+          "step": 0,
+          "stage": "half_recovery:flat"
+        },
+        {
+          "step": 565,
+          "stage": "half_recovery:first_to_50"
+        },
+        {
+          "step": 661,
+          "stage": "half_recovery:half_recovery"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 24,
+      "profile": "early_direct",
+      "seed": 84004,
+      "steps": 1207,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 25.881891371864608,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.500788114112385,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 620,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 695,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 753,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 840,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 25,
+      "profile": "mid_direct",
+      "seed": 84005,
+      "steps": 1264,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 27.624136276669372,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.601138107935493,
+      "events": [
+        {
+          "step": 0,
+          "stage": "mid_direct:flat"
+        },
+        {
+          "step": 639,
+          "stage": "mid_direct:first_to_50"
+        },
+        {
+          "step": 727,
+          "stage": "mid_direct:first_safe_to_full"
+        },
+        {
+          "step": 766,
+          "stage": "mid_direct:first_restart"
+        },
+        {
+          "step": 831,
+          "stage": "mid_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 26,
+      "profile": "tuned_direct",
+      "seed": 84006,
+      "steps": 1336,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 27.056884535186967,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.700335000306546,
+      "events": [
+        {
+          "step": 0,
+          "stage": "tuned_direct:flat"
+        },
+        {
+          "step": 694,
+          "stage": "tuned_direct:first_to_50"
+        },
+        {
+          "step": 797,
+          "stage": "tuned_direct:first_safe_to_full"
+        },
+        {
+          "step": 855,
+          "stage": "tuned_direct:first_restart"
+        },
+        {
+          "step": 921,
+          "stage": "tuned_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 27,
+      "profile": "early_direct",
+      "seed": 84007,
+      "steps": 1346,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 25.516863432423524,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.8003752110399,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 696,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 777,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 830,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 893,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 28,
+      "profile": "early_direct",
+      "seed": 84008,
+      "steps": 1360,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 26.60525815908052,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 4.901963685483067,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 744,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 822,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 877,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 946,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 29,
+      "profile": "early_direct",
+      "seed": 84009,
+      "steps": 1418,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 26.385280914172544,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 5.001184644932615,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 784,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 868,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 921,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 981,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    },
+    {
+      "position": 30,
+      "profile": "early_direct",
+      "seed": 84010,
+      "steps": 1458,
+      "raw_clearances": 1,
+      "recovered_obstacles": 1,
+      "course_complete": true,
+      "hard_fall": false,
+      "failure_reason": "",
+      "maximum_angle_degrees": 25.996385308598285,
+      "upper_body_contact_steps": 0,
+      "maximum_com_x": 5.1007891074533696,
+      "events": [
+        {
+          "step": 0,
+          "stage": "early_direct:flat"
+        },
+        {
+          "step": 819,
+          "stage": "early_direct:first_to_50"
+        },
+        {
+          "step": 900,
+          "stage": "early_direct:first_safe_to_full"
+        },
+        {
+          "step": 955,
+          "stage": "early_direct:first_restart"
+        },
+        {
+          "step": 1017,
+          "stage": "early_direct:flat"
+        }
+      ],
+      "gif": null
+    }
+  ],
+  "success_rate": 1.0,
+  "hard_fall_rate": 0.0,
+  "all_positions_passed": true
+}

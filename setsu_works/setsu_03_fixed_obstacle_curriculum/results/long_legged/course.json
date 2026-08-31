@@ -1,0 +1,37 @@
+{
+  "version": "fixed_curriculum_v2",
+  "level": 6,
+  "name": "dense_double_low_bridge",
+  "width": 40,
+  "height": 7,
+  "finish_x": 28,
+  "max_steps": 1600,
+  "robot_start": [
+    2,
+    1
+  ],
+  "obstacle_count": 2,
+  "obstacles": [
+    {
+      "name": "low_narrow_1",
+      "start_x": 14,
+      "heights": [
+        1
+      ],
+      "description": "低い細壁",
+      "end_x": 14,
+      "max_height": 1
+    },
+    {
+      "name": "dense_low_narrow_2",
+      "start_x": 20,
+      "heights": [
+        1
+      ],
+      "description": "近距離にある二つ目の低い細壁",
+      "end_x": 20,
+      "max_height": 1
+    }
+  ],
+  "description": "最初の越障運動量を利用する密集二低壁の橋渡し課程"
+}

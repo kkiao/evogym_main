@@ -1,0 +1,87 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d1_s11_low_platform_short-low_platform_short-low_platform_short-low_hurdle",
+  "split": "train",
+  "seed": 11,
+  "difficulty": 1,
+  "width": 117,
+  "height": 10,
+  "finish_x": 112,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 22
+    },
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 40,
+      "end_x": 42
+    },
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 66,
+      "end_x": 68
+    },
+    {
+      "name": "low_hurdle",
+      "heights": [
+        1
+      ],
+      "family": "hurdle",
+      "intended_skill": "step_over",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "teacher_verified",
+      "description": "一体素の低い壁で、既存教師による通過証拠がある。",
+      "width": 1,
+      "max_height": 1,
+      "start_x": 91,
+      "end_x": 91
+    }
+  ]
+}

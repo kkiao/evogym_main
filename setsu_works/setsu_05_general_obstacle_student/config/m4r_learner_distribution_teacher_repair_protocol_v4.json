@@ -1,0 +1,11 @@
+{
+  "version": "m4r_learner_distribution_teacher_repair_protocol_v4",
+  "frozen": true,
+  "base_protocol_path": "config/m4r_learner_distribution_teacher_repair_protocol_v3.json",
+  "base_protocol_sha256": "ece392c0015e73ec58452fdb48917a552b8474274a92ff23361cf06bd9e68ee8",
+  "change_reason": "v3_x23_failed_all_192_routes_with_robust_flat_control_until_hurdle_transition",
+  "robust_flat_prefix_step_candidates": [10, 20, 40, 60, 80, 120],
+  "maximum_trigger_flat_duration_combinations_for_route_search": 2,
+  "pre_hurdle_bridge_mode": "bounded_robust_recovery_then_legacy_verified_approach",
+  "final_continuous_gate_unchanged": true
+}

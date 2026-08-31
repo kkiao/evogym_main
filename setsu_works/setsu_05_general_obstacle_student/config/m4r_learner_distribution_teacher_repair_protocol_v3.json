@@ -1,0 +1,19 @@
+{
+  "version": "m4r_learner_distribution_teacher_repair_protocol_v3",
+  "frozen": true,
+  "base_protocol_path": "config/m4r_learner_distribution_teacher_repair_protocol_v2.json",
+  "base_protocol_sha256": "3bb0bb2bf8b8c54834cb4c7e2a84a57387db85904ef81cbdb97c81caaa5b1fbf",
+  "change_reason": "v2_x23_exhausted_all_crossing_and_recovery_routes_while_sharing_the_same_pre_hurdle_flat_controller",
+  "robust_flat_teacher_model_path": "training_only_teacher/generated/noisy_flat_runs/noisy_flat_seed7_v1/best_model.zip",
+  "robust_flat_teacher_model_sha256": "eb79b51bda1093dcc02715c42d49ffce786aac5278214ccad605a4d5e6a7a253",
+  "robust_flat_teacher_summary_path": "training_only_teacher/generated/noisy_flat_runs/noisy_flat_seed7_v1/summary.json",
+  "robust_flat_teacher_summary_sha256": "f105053eb8c81836ffe9ce6455b949148802edf25c73f594c6bb239e274af605",
+  "robust_flat_teacher_evidence": {
+    "evaluation_success_count": 11,
+    "evaluation_hard_fall_count": 0,
+    "noise_std": 0.01,
+    "noise_probability": 0.01
+  },
+  "pre_hurdle_course_requires_robust_flat_teacher": true,
+  "final_continuous_gate_unchanged": true
+}

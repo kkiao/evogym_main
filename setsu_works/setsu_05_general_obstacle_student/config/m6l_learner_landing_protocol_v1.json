@@ -1,0 +1,21 @@
+{
+  "version": "m6l_learner_landing_protocol_v1",
+  "frozen": true,
+  "source_model_path": "runs/m6r_contact_distillation/m6r_contact_distillation_seed7_v1/online_checkpoints/student_12288_online_steps.zip",
+  "source_model_sha256": "4ff50cad82c4e2d5df71f19444ebbf6cc304f0b95d22df0ba4083e7ec61818b8",
+  "source_summary_path": "runs/m6r_contact_distillation/m6r_contact_distillation_seed7_v1/summary.json",
+  "source_summary_sha256": "58cd0e5ab7ee8a81e8ce8779ac612af0e617f8da10783ecbb79ca3ea142eba28",
+  "seed_manifest_path": "config/seed_manifest_v1.json",
+  "seed_manifest_sha256": "20badd034be77d93db12f464556fc495e1ef57014ffa088e60af51e7a1f29706",
+  "device": "cpu",
+  "parallel_environments": 8,
+  "checkpoint_interval_steps": 12288,
+  "total_steps": 61440,
+  "maximum_student_steps_per_episode": 1200,
+  "training_weights": {"learner_landing": 0.6, "full_start": 0.3, "flat": 0.1},
+  "minimum_landing_specs": 4,
+  "teacher_actions_used": 0,
+  "validation_teacher_enabled": false,
+  "holdout_teacher_enabled": false,
+  "holdout_episodes": 0
+}

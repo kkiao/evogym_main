@@ -1,0 +1,16 @@
+{
+  "source_model": "not_included/historical_layered_transfer_source.zip",
+  "source_observation_shape": [
+    68
+  ],
+  "target_observation_shape": [
+    68
+  ],
+  "action_shape": [
+    10
+  ],
+  "exact_tensor_count": 13,
+  "expanded_input_tensors": [],
+  "skipped_tensors": [],
+  "note_ja": "旧モデルは読取専用とし、追加した地形入力列は零で初期化した。"
+}

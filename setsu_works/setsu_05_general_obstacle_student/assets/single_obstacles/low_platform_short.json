@@ -1,0 +1,35 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d1_s102_low_platform_short",
+  "split": "train",
+  "seed": 102,
+  "difficulty": 1,
+  "width": 48,
+  "height": 10,
+  "finish_x": 43,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 22
+    }
+  ]
+}

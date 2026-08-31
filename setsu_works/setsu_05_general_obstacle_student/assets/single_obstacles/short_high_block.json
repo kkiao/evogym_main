@@ -1,0 +1,34 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "validation_d3_s108_short_high_block",
+  "split": "validation",
+  "seed": 108,
+  "difficulty": 3,
+  "width": 47,
+  "height": 10,
+  "finish_x": 42,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "short_high_block",
+      "heights": [
+        2,
+        2
+      ],
+      "family": "jump_wall",
+      "intended_skill": "jump_or_climb",
+      "difficulty": 3,
+      "split": "validation",
+      "empirical_status": "morphology_upper_bound",
+      "description": "高さ二、幅二の短い高壁。",
+      "width": 2,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 21
+    }
+  ]
+}

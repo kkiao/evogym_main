@@ -1,0 +1,13 @@
+{
+  "version": "m4r_learner_distribution_teacher_repair_protocol_v2",
+  "frozen": true,
+  "base_protocol_path": "config/m4r_learner_distribution_teacher_repair_protocol_v1.json",
+  "base_protocol_sha256": "efb7cb038eb5d36a864bd48aa61dcea0e49b88694a2d2dd87ba3393113477ce6",
+  "change_reason": "separate_exact_success_search_from_snapshot_robustness_audit_after_v1_exhaustive_runtime_stop",
+  "quick_route_candidate_budget_per_position": 12,
+  "expanded_route_candidate_limit_per_position": 192,
+  "deferred_historically_uncovered_positions": [21, 22],
+  "stop_robustness_search_after_first_exact_success": true,
+  "minimum_robust_position_count": 4,
+  "final_continuous_gate_unchanged": true
+}

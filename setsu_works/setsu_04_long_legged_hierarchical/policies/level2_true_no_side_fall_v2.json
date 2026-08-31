@@ -1,0 +1,38 @@
+{
+  "version": "level2_true_no_side_fall_v2_submission",
+  "body": "long_legged",
+  "validated_level": 2,
+  "evaluation_seed": 10000,
+  "teacher_usage": "この制御チェーン自体が提出対象であり、汎用学生の最終評価では使用しない。",
+  "result": {
+    "strict_clearances": 2,
+    "stable_landings": 2,
+    "restart_successes": 2,
+    "validated_obstacles": 2,
+    "success": true,
+    "overall_maximum_degrees": 70.40865811298329,
+    "overall_contact_steps": 82,
+    "whole_episode_true_no_side_fall": false,
+    "optimized_maximum_degrees": 28.69084651744398,
+    "optimized_contact_steps": 0,
+    "optimized_obstacle_control_no_side_fall": true
+  },
+  "action_scales": {
+    "first_landing": 0.05,
+    "first_restart": 0.75,
+    "second_landing": 0.1,
+    "second_restart": 0.75
+  },
+  "models": {
+    "approach": "models/approach.zip",
+    "first_to_50": "models/first_to_50.zip",
+    "first_safe_to_full": "models/first_safe_to_full.zip",
+    "first_landing": "models/first_landing.zip",
+    "first_restart": "models/first_restart.zip",
+    "second_to_33": "models/second_to_33.zip",
+    "second_to_50": "models/second_to_50.zip",
+    "second_to_full": "models/second_to_full.zip",
+    "second_landing": "models/second_landing.zip",
+    "second_restart": "models/second_restart.zip"
+  }
+}

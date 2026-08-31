@@ -1,0 +1,37 @@
+{
+  "version": "fixed_curriculum_v3",
+  "level": 7,
+  "name": "adjacent_double_low_bridge",
+  "width": 34,
+  "height": 7,
+  "finish_x": 24,
+  "max_steps": 1600,
+  "robot_start": [
+    2,
+    1
+  ],
+  "obstacle_count": 2,
+  "obstacles": [
+    {
+      "name": "low_narrow_1",
+      "start_x": 14,
+      "heights": [
+        1
+      ],
+      "description": "低い細壁",
+      "end_x": 14,
+      "max_height": 1
+    },
+    {
+      "name": "adjacent_low_narrow_2",
+      "start_x": 16,
+      "heights": [
+        1
+      ],
+      "description": "隣接する二つ目の低い細壁",
+      "end_x": 16,
+      "max_height": 1
+    }
+  ],
+  "description": "二つの固定低壁の間に地面一体素を残した橋渡し課程"
+}

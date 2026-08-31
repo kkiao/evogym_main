@@ -1,0 +1,15 @@
+{
+  "run_name": "level7_adjacent_layered_seed7_v8",
+  "body_name": "layered",
+  "curriculum_level": 7,
+  "completed_timesteps": 151552,
+  "target_timesteps": 150000,
+  "best_score": [
+    0.0,
+    0.0,
+    1.3020306275900124,
+    23.28373104966595
+  ],
+  "best_timesteps": 110000,
+  "updated_at_utc": "2026-08-30T06:13:53.705296+00:00"
+}

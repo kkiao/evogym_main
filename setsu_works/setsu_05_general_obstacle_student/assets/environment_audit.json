@@ -1,0 +1,57 @@
+{
+  "audit_type": "environment_and_acceptance_no_training",
+  "training_executed": false,
+  "passed": true,
+  "shared_observation_shape": true,
+  "shared_action_shape": true,
+  "cases": [
+    {
+      "split": "train",
+      "course_id": "train_d3_s801_x21_low_hurdle-low_platform_short-triangular_mound",
+      "course_width": 91,
+      "observation_shape": [
+        95
+      ],
+      "action_shape": [
+        6
+      ],
+      "initial_observation_finite": true,
+      "initial_observation_in_space": true,
+      "privileged_schema_names": [],
+      "neutral_steps_executed": 20,
+      "simulation_unstable": false
+    },
+    {
+      "split": "validation",
+      "course_id": "validation_d3_s802_x24_double_peak-low_platform_body_width-double_peak",
+      "course_width": 104,
+      "observation_shape": [
+        95
+      ],
+      "action_shape": [
+        6
+      ],
+      "initial_observation_finite": true,
+      "initial_observation_in_space": true,
+      "privileged_schema_names": [],
+      "neutral_steps_executed": 20,
+      "simulation_unstable": false
+    },
+    {
+      "split": "holdout",
+      "course_id": "holdout_d3_s803_x21_stepped_wave-stepped_wave-terraced_wedge",
+      "course_width": 108,
+      "observation_shape": [
+        95
+      ],
+      "action_shape": [
+        6
+      ],
+      "initial_observation_finite": true,
+      "initial_observation_in_space": true,
+      "privileged_schema_names": [],
+      "neutral_steps_executed": 20,
+      "simulation_unstable": false
+    }
+  ]
+}

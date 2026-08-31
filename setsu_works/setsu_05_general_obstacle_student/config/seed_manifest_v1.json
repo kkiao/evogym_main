@@ -1,0 +1,20 @@
+{
+  "version": "height1_single_hurdle_seed_manifest_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "selection_rule": "Each split contains exactly one course at every start runway position from 20 through 30 voxels.",
+  "splits": {
+    "train": {
+      "purpose": "Interactive rescue collection and student updates only.",
+      "seeds": [100009, 100011, 100001, 100016, 100002, 100004, 100005, 100000, 100008, 100029, 100003]
+    },
+    "validation": {
+      "purpose": "Student-only model selection; never used for updates.",
+      "seeds": [200004, 200000, 200026, 200018, 200010, 200022, 200005, 200007, 200001, 200015, 200003]
+    },
+    "holdout": {
+      "purpose": "Final student-only evaluation; never used during model selection.",
+      "seeds": [300007, 300002, 300004, 300023, 300000, 300014, 300001, 300009, 300008, 300017, 300036]
+    }
+  }
+}
