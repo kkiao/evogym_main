@@ -23,3 +23,6 @@ build_scripts
 exported/
 req_ns.txt
 backup/
+.venv/
+__pycache__/
+*.pyc

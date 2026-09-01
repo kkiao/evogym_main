@@ -9,9 +9,9 @@ from src.policy import Policy
 
 
 TASK_NAME = "Walker-v0"#climer->walker
-BODY_FILE = "results/best_body.npy"
-POLICY_FILE = "results/best_policy.pt"
-OUTPUT_FILE = "results/best_after.gif"
+BODY_FILE = "results/parallel_fixed_body.npy"
+POLICY_FILE = "results/parallel_fixed_policy.pt"
+OUTPUT_FILE = "results/parallel_fixed.gif"
 MAX_STEPS = 300
 
 

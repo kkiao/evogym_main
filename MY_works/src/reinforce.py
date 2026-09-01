@@ -47,7 +47,7 @@ def choose_action(policy, obs, action_low, action_high):
 
 
 #方策を更新する。良い行動と悪い行動に分け、良い行動の確率を上げる
-def update_policy(optimizer, log_probs, returns):
+"""def update_policy(optimizer, log_probs, returns):
     # 時刻ごとに別々だったTensorを、一つのTensorにまとめる。
     log_probs_tensor = torch.stack(log_probs)
 
@@ -57,6 +57,30 @@ def update_policy(optimizer, log_probs, returns):
     # 良いreturnなら、その行動のlog_probを大きくする方向に更新する損失。
     loss = -(log_probs_tensor * normalized_returns).sum()
 
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+    return loss.item()
+"""
+def update_policy(optimizer, log_probs, returns):
+    # 1. log_probsをスタックしてテンソルにする
+    log_probs_tensor = torch.stack(log_probs)
+
+    # 2. returnsをテンソルにする際、GPUに送るコードを追加
+    # log_probs_tensorと同じデバイス（GPU）に合わせるのが一番確実です
+    returns_tensor = torch.as_tensor(returns, dtype=torch.float32, device=log_probs_tensor.device)
+    # 3. 報酬の正規化（これを行うと学習が安定します）
+    if len(returns_tensor) > 1:
+        normalized_returns = (returns_tensor - returns_tensor.mean()) / (returns_tensor.std() + 1e-8)
+    else:
+        normalized_returns = returns_tensor
+
+    # 4. 損失の計算
+    # ここで「cuda:0 と cpu」が混ざっていたのがエラーの原因でした
+    loss = -(log_probs_tensor * normalized_returns).sum()
+
+    # 5. 重みの更新
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
@@ -143,3 +167,40 @@ def make_mean_action(policy, obs, low_array, high_array):
     high = torch.tensor(high_array, dtype=torch.float32)
     action = (low + high) / 2 + (high - low) / 2 * torch.tanh(mean)
     return action.squeeze(0).numpy()
+
+
+###################追加16個の学習環境を構築#############
+import torch
+from torch.distributions import Normal
+
+def choose_action_batch(policy, obs, envs, device):
+    obs_tensor = torch.from_numpy(obs).float().to(device)
+    
+    # 1. Policyを実行
+    outputs = policy(obs_tensor)
+    
+    # 2. 戻り値の数によって処理を分ける
+    if isinstance(outputs, tuple) and len(outputs) == 2:
+        # mu と sigma が両方返ってくるタイプの場合
+        mu, sigma = outputs
+    else:
+        # mu だけが返ってくるタイプの場合
+        mu = outputs
+        # ★ 0.1 から 0.5 くらいに上げると、最初は激しく動いて探索しやすくなります
+        sigma = torch.full_like(mu, 0.5)
+    
+    # 3. 分布を作ってサンプリング
+    # sigmaが負にならないように softplus や exp をかける必要がある場合があります
+    # ここでは単純に正の値であることを想定
+    dist = Normal(mu, sigma)
+    action = dist.sample()
+    
+    # log確率を計算
+    log_prob = dist.log_prob(action).sum(dim=-1)
+    
+    action_np = action.cpu().detach().numpy()
+    low = envs.single_action_space.low
+    high = envs.single_action_space.high
+    action_np = action_np.clip(low, high)
+    
+    return action_np, log_prob
