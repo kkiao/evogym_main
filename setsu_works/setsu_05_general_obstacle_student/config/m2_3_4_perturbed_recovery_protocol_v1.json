@@ -1,0 +1,42 @@
+{
+  "version": "m2_3_4_learner_error_scaled_perturbed_recovery_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "teacher_training_only": true,
+  "failed_interactive_summary_path": "runs/interactive_correction_rescue_teacher/m2_3_4_interactive_correction_seed7_v1/summary.json",
+  "failed_interactive_summary_sha256": "5fbc642231fa7ec357ccd9c80e6d3b1f09463850e466fd6c58f29385e0b2dc82",
+  "source_checkpoint_path": "runs/phase_balanced_rescue_teacher/m2_3_2_phase_balanced_bc_seed7_v1/teacher_after_phase_balanced_bc.zip",
+  "source_checkpoint_sha256": "e649610d3de8cd7918b2d13a39abfc0da1de0d3f4f8c69e1b2e9e198a51aef1c",
+  "source_training_summary_path": "runs/phase_balanced_rescue_teacher/m2_3_2_phase_balanced_bc_seed7_v1/summary.json",
+  "source_training_summary_sha256": "ac6c2c826b197100656032a91746393881b0ed4667a454f9f9cbac30e5d9bc75",
+  "demonstration_manifest_path": "config/m2_3_1_success_demo_manifest_v1.json",
+  "demonstration_manifest_sha256": "591a63b4704990ced2fce7a7839f0d39eb8165437ab783c4a6e6904382781170",
+  "reset_manifest_path": "config/m2_2_rescue_reset_manifest_v1.json",
+  "reset_manifest_sha256": "82197e5c97f729fb7f79a18493cc2cf8b41ce389a36b58af9f63637e02fea6bb",
+  "collection_seeds": [100004, 100001, 100000, 100008],
+  "maximum_collection_episodes": 4,
+  "noise_residual_rms_fraction": 0.25,
+  "maximum_absolute_noise": 0.08,
+  "minimum_accepted_branches_for_update": 2,
+  "handoff_window_steps": 32,
+  "epochs": 4,
+  "learning_rate": 0.00005,
+  "maximum_gradient_norm": 0.5,
+  "weight_decay": 0.0,
+  "loss_groups": [
+    "handoff_window",
+    "remaining_pre_hurdle",
+    "hurdle_deformation",
+    "post_clearance_recovery"
+  ],
+  "ppo_training_steps": 0,
+  "validation_episodes": 0,
+  "holdout_episodes": 0,
+  "gate": {
+    "minimum_source_state_success_count": 3,
+    "minimum_reset_state_success_count": 4,
+    "maximum_source_state_hard_fall_count": 0,
+    "maximum_reset_state_hard_fall_count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "algorithm": "PPO",
+  "run_names": [
+    "ppo_walker_seed7_pilot",
+    "ppo_walker_seed17",
+    "ppo_walker_seed27"
+  ],
+  "seeds": [
+    7,
+    17,
+    27
+  ],
+  "common_final_timesteps": 100352,
+  "initial_return_mean": 0.00033692862446912014,
+  "random_action_return_mean": -0.03342101988510071,
+  "final_return_mean": 2.98654389628091,
+  "final_return_std": 0.08513294335392622,
+  "final_return_min": 2.8796316593127633,
+  "final_return_max": 3.087945371745658,
+  "final_speed_mean": 0.005973087792561821,
+  "final_speed_std": 0.0001702658867078523,
+  "per_run_final_return": {
+    "ppo_walker_seed7_pilot": 2.9920546577843097,
+    "ppo_walker_seed17": 2.8796316593127633,
+    "ppo_walker_seed27": 3.087945371745658
+  },
+  "shared_settings": {
+    "algorithm": "PPO",
+    "task_name": "Walker-v0",
+    "max_steps": 500,
+    "learning_rate": 0.00025,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "vf_coef": 0.5,
+    "ent_coef": 0.01,
+    "clip_range": 0.2,
+    "max_grad_norm": 0.5
+  }
+}

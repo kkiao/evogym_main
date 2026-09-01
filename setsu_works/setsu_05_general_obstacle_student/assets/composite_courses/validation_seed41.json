@@ -1,0 +1,91 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "validation_d3_s41_short_high_block-short_high_block-low_platform_body_width-low_platform_body_width",
+  "split": "validation",
+  "seed": 41,
+  "difficulty": 3,
+  "width": 123,
+  "height": 10,
+  "finish_x": 118,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "short_high_block",
+      "heights": [
+        2,
+        2
+      ],
+      "family": "jump_wall",
+      "intended_skill": "jump_or_climb",
+      "difficulty": 3,
+      "split": "validation",
+      "empirical_status": "morphology_upper_bound",
+      "description": "高さ二、幅二の短い高壁。",
+      "width": 2,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 21
+    },
+    {
+      "name": "short_high_block",
+      "heights": [
+        2,
+        2
+      ],
+      "family": "jump_wall",
+      "intended_skill": "jump_or_climb",
+      "difficulty": 3,
+      "split": "validation",
+      "empirical_status": "morphology_upper_bound",
+      "description": "高さ二、幅二の短い高壁。",
+      "width": 2,
+      "max_height": 2,
+      "start_x": 43,
+      "end_x": 44
+    },
+    {
+      "name": "low_platform_body_width",
+      "heights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 2,
+      "split": "validation",
+      "empirical_status": "geometry_screened",
+      "description": "幅が身体一個分に等しい低い台。",
+      "width": 5,
+      "max_height": 1,
+      "start_x": 69,
+      "end_x": 73
+    },
+    {
+      "name": "low_platform_body_width",
+      "heights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 2,
+      "split": "validation",
+      "empirical_status": "geometry_screened",
+      "description": "幅が身体一個分に等しい低い台。",
+      "width": 5,
+      "max_height": 1,
+      "start_x": 93,
+      "end_x": 97
+    }
+  ]
+}

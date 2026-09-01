@@ -1,0 +1,125 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d3_s31_low_hurdle-staircase_plateau-low_hurdle-staircase_plateau-low_platform_short-narrow_high_hurdle",
+  "split": "train",
+  "seed": 31,
+  "difficulty": 3,
+  "width": 152,
+  "height": 10,
+  "finish_x": 147,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_hurdle",
+      "heights": [
+        1
+      ],
+      "family": "hurdle",
+      "intended_skill": "step_over",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "teacher_verified",
+      "description": "一体素の低い壁で、既存教師による通過証拠がある。",
+      "width": 1,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 20
+    },
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 36,
+      "end_x": 41
+    },
+    {
+      "name": "low_hurdle",
+      "heights": [
+        1
+      ],
+      "family": "hurdle",
+      "intended_skill": "step_over",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "teacher_verified",
+      "description": "一体素の低い壁で、既存教師による通過証拠がある。",
+      "width": 1,
+      "max_height": 1,
+      "start_x": 59,
+      "end_x": 59
+    },
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 76,
+      "end_x": 81
+    },
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 105,
+      "end_x": 107
+    },
+    {
+      "name": "narrow_high_hurdle",
+      "heights": [
+        2
+      ],
+      "family": "jump_wall",
+      "intended_skill": "jump_or_climb",
+      "difficulty": 3,
+      "split": "train",
+      "empirical_status": "morphology_upper_bound",
+      "description": "高さが身体有効高の半分である細い壁。",
+      "width": 1,
+      "max_height": 2,
+      "start_x": 126,
+      "end_x": 126
+    }
+  ]
+}

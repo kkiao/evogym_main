@@ -1,0 +1,33 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d1_s101_low_hurdle",
+  "split": "train",
+  "seed": 101,
+  "difficulty": 1,
+  "width": 46,
+  "height": 10,
+  "finish_x": 41,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_hurdle",
+      "heights": [
+        1
+      ],
+      "family": "hurdle",
+      "intended_skill": "step_over",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "teacher_verified",
+      "description": "一体素の低い壁で、既存教師による通過証拠がある。",
+      "width": 1,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 20
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "validation_d2_s103_low_platform_body_width",
+  "split": "validation",
+  "seed": 103,
+  "difficulty": 2,
+  "width": 50,
+  "height": 10,
+  "finish_x": 45,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_platform_body_width",
+      "heights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 2,
+      "split": "validation",
+      "empirical_status": "geometry_screened",
+      "description": "幅が身体一個分に等しい低い台。",
+      "width": 5,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 24
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "validation_d3_s109_double_peak",
+  "split": "validation",
+  "seed": 109,
+  "difficulty": 3,
+  "width": 50,
+  "height": 10,
+  "finish_x": 45,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "double_peak",
+      "heights": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "family": "wave",
+      "intended_skill": "repeated_step_control",
+      "difficulty": 3,
+      "split": "validation",
+      "empirical_status": "geometry_screened",
+      "description": "二つの連続峰からなる波状輪郭。",
+      "width": 5,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 24
+    }
+  ]
+}

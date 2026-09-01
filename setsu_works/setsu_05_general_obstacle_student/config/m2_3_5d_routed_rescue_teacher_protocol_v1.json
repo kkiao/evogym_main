@@ -1,0 +1,27 @@
+{
+  "version": "m2_3_5d_routed_rescue_teacher_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "teacher_training_only": true,
+  "controller_search_summary_path": "runs/phase_controller_rescue_search/m2_3_5c_controller_rescue_v1/summary.json",
+  "controller_search_summary_sha256": "1a02378c417564676915f972a581d4d5648539185478af4f222e8af517881346",
+  "phase_reset_manifest_path": "runs/phase_reset_curriculum_audit/m2_3_5a_phase_reset_audit_v1/phase_reset_manifest.json",
+  "phase_reset_manifest_sha256": "3b448d8b9057ccd1af8fe79a1eaf1ceb66f05f8629d952c96217a6791baa343a",
+  "reset_manifest_path": "config/m2_2_rescue_reset_manifest_v1.json",
+  "reset_manifest_sha256": "82197e5c97f729fb7f79a18493cc2cf8b41ce389a36b58af9f63637e02fea6bb",
+  "source_student_model_path": "runs/height1_recurrent_dagger_student/height1_recurrent_dagger_seed7_v1/best_model.zip",
+  "source_student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "phase_impulse_magnitude": 0.01,
+  "route_activation_phase": "pre_hurdle",
+  "validation_episodes": 0,
+  "holdout_episodes": 0,
+  "gate": {
+    "minimum_phase_exact_success_count": 16,
+    "minimum_phase_impulse_success_count": 16,
+    "maximum_phase_exact_hard_fall_count": 0,
+    "maximum_phase_impulse_hard_fall_count": 0,
+    "minimum_reset_state_success_count": 4,
+    "maximum_reset_state_hard_fall_count": 1
+  }
+}

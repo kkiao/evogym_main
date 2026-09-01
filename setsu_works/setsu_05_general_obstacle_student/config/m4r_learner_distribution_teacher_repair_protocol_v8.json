@@ -1,0 +1,73 @@
+{
+  "version": "m4r_learner_distribution_teacher_repair_protocol_v8",
+  "frozen": true,
+  "base_protocol_path": "config/m4r_learner_distribution_teacher_repair_protocol_v7.json",
+  "base_protocol_sha256": "bbd157e438486d27fbe3e408a6c9d440547c89158e1b1ff6f8b275d5f5d0544a",
+  "change_reason": "continuous_v1_completed_eleven_of_eleven_safely_but_eight_courses_exceeded_the_1200_step_teacher_timeout_budget",
+  "trigger_profiles": [
+    {
+      "name": "pre_action_zero_threshold_portfolio_shield_budget2000",
+      "entry_orientation_degrees": 20.0,
+      "warning_orientation_degrees": 12.0,
+      "exit_orientation_degrees": 10.0,
+      "entry_angular_velocity": 0.03,
+      "exit_angular_velocity": 0.012,
+      "disagreement_threshold": 0.0,
+      "disagreement_streak_steps": 1,
+      "disagreement_maximum_rise_offset": 20,
+      "disagreement_requires_local_terrain": false,
+      "pre_recovery_danger_requires_local_terrain": false,
+      "minimum_teacher_steps": 20,
+      "release_safe_steps": 2000,
+      "maximum_teacher_steps": 2000
+    }
+  ],
+  "timeout_budget_evidence": {
+    "source_summary_path": "evidence/m4r/continuous_validation_summary.json",
+    "source_summary_sha256": "f953d8e539aa7b232dfaa47b8b52a773c0cc3634fa447140744bb2505f16752c",
+    "maximum_observed_episode_steps": 1435,
+    "new_teacher_budget_steps": 2000
+  },
+  "portfolio_teacher_sources": [
+    {
+      "path": "evidence/m4r/continuous_validation_summary.json",
+      "sha256": "f953d8e539aa7b232dfaa47b8b52a773c0cc3634fa447140744bb2505f16752c"
+    },
+    {
+      "path": "training_only_teacher/generated/portfolio_height1_teacher_v1/validation.json",
+      "sha256": "df43e199f26e5e3d6b68242e32ddc6b4a1e636ad5db0a57f67b9a56fd504da8d"
+    },
+    {
+      "path": "general_terrain/portfolio_height1_teacher.py",
+      "sha256": "f1459881946f4c72bfbac77fd812c70351a086b758e7473376369d19ead1b903"
+    },
+    {
+      "path": "general_terrain/closed_loop_height1_teacher.py",
+      "sha256": "010e9499657c73b9b2731ee5224d09bc570e01eceaaf0f82dba8deb9290b7a78"
+    },
+    {
+      "path": "general_terrain/interactive_rescue.py",
+      "sha256": "8c42d2e27424735f433ed8cbdff38fd72b54f6ae21bd10d83293a97903950f56"
+    },
+    {
+      "path": "general_terrain/m4r_learner_distribution_teacher.py",
+      "sha256": "7ec2d74177ca294d2a2ffcdf19ef577fd1d7889239c061c3a8da49a422c62e48"
+    },
+    {
+      "path": "general_terrain/run_m4r_global_portfolio_repair.py",
+      "sha256": "d500f794ea84147e8075dc8f7bef7a939f2490072a19b7328b0199b4d67da9dc"
+    },
+    {
+      "path": "training_only_teacher/generated/recovery_runs/_smoke_recovery_teacher_seed7_v1/best_model.zip",
+      "sha256": "72c9fff6a30c6a469b95ad9e3bdad7c205aed9bb124d9f438cbde733a09b383e"
+    },
+    {
+      "path": "training_only_teacher/generated/recovery_runs/specialist_x23_fraction50_ppo10k_seed7_v4/best_model.zip",
+      "sha256": "9f1f113b752abc273841c854e18c0ff752372b5f5abca20e61f14c4bedb99046"
+    }
+  ],
+  "repair_gate_unchanged": true,
+  "continuous_gate_unchanged": true,
+  "final_student_test_teacher_enabled": false,
+  "teacher_interventions_in_final_student_test": 0
+}

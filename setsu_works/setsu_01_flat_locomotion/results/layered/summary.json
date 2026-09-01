@@ -1,0 +1,9 @@
+{
+  "run_name": "ppo_layered_walker_seed7",
+  "algorithm": "PPO",
+  "completed_timesteps": 301056,
+  "target_timesteps": 300000,
+  "best_eval_return": 5.296541066086855,
+  "best_timesteps": 300000,
+  "updated_at_utc": "2026-08-29T16:52:21.763224+00:00"
+}

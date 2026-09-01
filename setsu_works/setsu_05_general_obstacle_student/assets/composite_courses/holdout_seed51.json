@@ -1,0 +1,101 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "holdout_d3_s51_stepped_wave-broad_mound-broad_mound-stepped_wave",
+  "split": "holdout",
+  "seed": 51,
+  "difficulty": 3,
+  "width": 128,
+  "height": 10,
+  "finish_x": 123,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "stepped_wave",
+      "heights": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "family": "wave",
+      "intended_skill": "unseen_repeated_steps",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "訓練中に現れない長い波状積層組合せ。",
+      "width": 7,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 26
+    },
+    {
+      "name": "broad_mound",
+      "heights": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "family": "mound",
+      "intended_skill": "unseen_broad_peak",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "頂部が広く、両側を段階的に上り下りできる小丘。",
+      "width": 5,
+      "max_height": 2,
+      "start_x": 45,
+      "end_x": 49
+    },
+    {
+      "name": "broad_mound",
+      "heights": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "family": "mound",
+      "intended_skill": "unseen_broad_peak",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "頂部が広く、両側を段階的に上り下りできる小丘。",
+      "width": 5,
+      "max_height": 2,
+      "start_x": 68,
+      "end_x": 72
+    },
+    {
+      "name": "stepped_wave",
+      "heights": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "family": "wave",
+      "intended_skill": "unseen_repeated_steps",
+      "difficulty": 3,
+      "split": "holdout",
+      "empirical_status": "geometry_screened",
+      "description": "訓練中に現れない長い波状積層組合せ。",
+      "width": 7,
+      "max_height": 2,
+      "start_x": 96,
+      "end_x": 102
+    }
+  ]
+}

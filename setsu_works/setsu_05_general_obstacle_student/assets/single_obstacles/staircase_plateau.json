@@ -1,0 +1,38 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d2_s105_staircase_plateau",
+  "split": "train",
+  "seed": 105,
+  "difficulty": 2,
+  "width": 51,
+  "height": 10,
+  "finish_x": 46,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 25
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": "m3_1_safe_initialization_search_protocol_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "source_student_model_path": "runs/height1_recurrent_dagger_student/height1_recurrent_dagger_seed7_v1/best_model.zip",
+  "source_student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "m3_protocol_path": "config/m3_stratified_student_initialization_protocol_v1.json",
+  "m3_protocol_sha256": "1d59e498eb32df577d6454720100ffebb34e6e16dfd916afe61ba11f5f1a35ba",
+  "failed_m3_summary_path": "runs/m3_stratified_student/m3_stratified_student_seed7_v1/summary.json",
+  "failed_m3_summary_sha256": "eb9a8135f841a9bae87d88d62b5a56320628465e3b0103e19ed5f0d76dda779c",
+  "failed_m3_checkpoint_path": "runs/m3_stratified_student/m3_stratified_student_seed7_v1/student_after_m3_initialization.zip",
+  "failed_m3_checkpoint_sha256": "75ce77ed0dc10c4a62b09536c939681feda6a6b0a7fddd55873488648ae3c20e",
+  "candidate_limit": 4,
+  "candidates": [
+    {
+      "candidate_id": "action_e1_lr1e-5",
+      "update_scope": "action_net",
+      "epochs": 1,
+      "learning_rate": 0.00001
+    },
+    {
+      "candidate_id": "policy_action_e1_lr1e-5",
+      "update_scope": "policy_action",
+      "epochs": 1,
+      "learning_rate": 0.00001
+    },
+    {
+      "candidate_id": "action_e2_lr5e-6",
+      "update_scope": "action_net",
+      "epochs": 2,
+      "learning_rate": 0.000005
+    },
+    {
+      "candidate_id": "full_actor_e1_lr5e-6",
+      "update_scope": "full_actor",
+      "epochs": 1,
+      "learning_rate": 0.000005
+    }
+  ],
+  "maximum_gradient_norm": 0.5,
+  "weight_decay": 0.0,
+  "loss_aggregation": "equal_mean_per_stratum_per_sequence",
+  "ppo_training_steps": 0,
+  "selection_split": "validation",
+  "baseline_validation_episodes": 11,
+  "validation_episodes_per_candidate": 11,
+  "selected_train_diagnostic_episodes": 11,
+  "holdout_episodes": 0,
+  "validation_teacher_enabled": false,
+  "holdout_teacher_enabled": false,
+  "final_student_test_teacher_enabled": false,
+  "teacher_interventions_in_student_evaluations": 0,
+  "safety_gate": {
+    "require_success_count_not_below_baseline": true,
+    "require_hard_fall_count_not_above_baseline": true,
+    "require_mean_raw_clearances_not_below_baseline": true,
+    "require_mean_recovered_obstacles_not_below_baseline": true,
+    "require_dataset_loss_decrease": true,
+    "require_actor_parameters_changed": true,
+    "require_critic_parameters_unchanged": true,
+    "require_source_files_unchanged": true,
+    "maximum_teacher_interventions": 0,
+    "maximum_holdout_episodes": 0
+  }
+}

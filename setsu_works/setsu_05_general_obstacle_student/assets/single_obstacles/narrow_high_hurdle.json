@@ -1,0 +1,33 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d3_s107_narrow_high_hurdle",
+  "split": "train",
+  "seed": 107,
+  "difficulty": 3,
+  "width": 46,
+  "height": 10,
+  "finish_x": 41,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "narrow_high_hurdle",
+      "heights": [
+        2
+      ],
+      "family": "jump_wall",
+      "intended_skill": "jump_or_climb",
+      "difficulty": 3,
+      "split": "train",
+      "empirical_status": "morphology_upper_bound",
+      "description": "高さが身体有効高の半分である細い壁。",
+      "width": 1,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 20
+    }
+  ]
+}

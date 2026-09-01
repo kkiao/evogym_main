@@ -1,0 +1,41 @@
+{
+  "version": "m2_3_5b_phase_crossing_teacher_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "teacher_training_only": true,
+  "phase_audit_summary_path": "runs/phase_reset_curriculum_audit/m2_3_5a_phase_reset_audit_v1/summary.json",
+  "phase_audit_summary_sha256": "9800ea4c7bba653d06f05a2755725f44e45d455dc2109197f24e922a3d9f3f0f",
+  "phase_reset_manifest_path": "runs/phase_reset_curriculum_audit/m2_3_5a_phase_reset_audit_v1/phase_reset_manifest.json",
+  "phase_reset_manifest_sha256": "3b448d8b9057ccd1af8fe79a1eaf1ceb66f05f8629d952c96217a6791baa343a",
+  "source_student_model_path": "runs/height1_recurrent_dagger_student/height1_recurrent_dagger_seed7_v1/best_model.zip",
+  "source_student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "reset_manifest_path": "config/m2_2_rescue_reset_manifest_v1.json",
+  "reset_manifest_sha256": "82197e5c97f729fb7f79a18493cc2cf8b41ce389a36b58af9f63637e02fea6bb",
+  "crossing_phases": [
+    "pre_hurdle",
+    "hurdle_deformation"
+  ],
+  "recovery_phases_use_old_teacher": [
+    "post_clearance_recovery",
+    "stable_finish"
+  ],
+  "random_prefix_impulse_magnitude": 0.01,
+  "maximum_crossing_steps": 400,
+  "behavior_cloning_epochs": 8,
+  "behavior_cloning_learning_rate": 0.0001,
+  "handoff_window_steps": 32,
+  "maximum_gradient_norm": 0.5,
+  "ppo_training_steps": 4992,
+  "validation_episodes": 0,
+  "holdout_episodes": 0,
+  "candidate_selection": "train_phase_exact_plus_impulse_lexicographic",
+  "gate": {
+    "minimum_phase_exact_success_count": 16,
+    "minimum_phase_impulse_success_count": 15,
+    "maximum_phase_exact_hard_fall_count": 0,
+    "maximum_phase_impulse_hard_fall_count": 0,
+    "minimum_reset_state_success_count": 4,
+    "maximum_reset_state_hard_fall_count": 1
+  }
+}

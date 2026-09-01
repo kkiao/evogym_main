@@ -1,0 +1,90 @@
+{
+  "version": "mixed_obstacles_v1",
+  "width": 100,
+  "height": 7,
+  "robot_start": [
+    2,
+    1
+  ],
+  "finish_x": 91,
+  "boundary_x": 99,
+  "obstacle_count": 7,
+  "obstacles": [
+    {
+      "name": "low_narrow",
+      "start_x": 14,
+      "heights": [
+        1
+      ],
+      "description": "低い細壁",
+      "end_x": 14,
+      "max_height": 1
+    },
+    {
+      "name": "tall_narrow",
+      "start_x": 25,
+      "heights": [
+        2
+      ],
+      "description": "高い細壁",
+      "end_x": 25,
+      "max_height": 2
+    },
+    {
+      "name": "low_wide",
+      "start_x": 36,
+      "heights": [
+        1,
+        1
+      ],
+      "description": "低い幅広壁",
+      "end_x": 37,
+      "max_height": 1
+    },
+    {
+      "name": "tall_wide",
+      "start_x": 48,
+      "heights": [
+        2,
+        2
+      ],
+      "description": "高い幅広壁",
+      "end_x": 49,
+      "max_height": 2
+    },
+    {
+      "name": "stepped_mound",
+      "start_x": 61,
+      "heights": [
+        1,
+        2,
+        1
+      ],
+      "description": "階段状の小丘",
+      "end_x": 63,
+      "max_height": 2
+    },
+    {
+      "name": "double_low",
+      "start_x": 74,
+      "heights": [
+        1,
+        0,
+        1
+      ],
+      "description": "連続する二つの低壁",
+      "end_x": 76,
+      "max_height": 1
+    },
+    {
+      "name": "final_tall",
+      "start_x": 86,
+      "heights": [
+        2
+      ],
+      "description": "終点前の高壁",
+      "end_x": 86,
+      "max_height": 2
+    }
+  ]
+}

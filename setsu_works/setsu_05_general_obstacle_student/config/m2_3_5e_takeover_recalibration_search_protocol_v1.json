@@ -1,0 +1,31 @@
+{
+  "version": "m2_3_5e_takeover_recalibration_search_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "teacher_training_only": true,
+  "failed_routed_teacher_summary_path": "runs/phase_routed_rescue_teacher/m2_3_5d_routed_rescue_teacher_v1/summary.json",
+  "failed_routed_teacher_summary_sha256": "207e91401f559c257fb0462e5df359b3e712af36e0690f55bf1e747ff4670d82",
+  "reset_manifest_path": "config/m2_2_rescue_reset_manifest_v1.json",
+  "reset_manifest_sha256": "82197e5c97f729fb7f79a18493cc2cf8b41ce389a36b58af9f63637e02fea6bb",
+  "source_student_model_path": "runs/height1_recurrent_dagger_student/height1_recurrent_dagger_seed7_v1/best_model.zip",
+  "source_student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "candidate_limit_per_position": 192,
+  "switch_fractions": [0.25, 0.4, 0.2, 0.3, 0.35, 0.38, 0.45, 0.5, 0.55, 0.6],
+  "post_clear_modes": [
+    "restart_then_flat",
+    "landing_then_restart",
+    "restart_brake_flat"
+  ],
+  "handoff_distances": [0.25, 0.35, 0.45, 0.55],
+  "clearance_blends": [1.0, 0.9, 0.8],
+  "clearance_families": ["first", "second"],
+  "adaptive_handoff_values": [true, false],
+  "reinitialize_at_takeover": true,
+  "validation_episodes": 0,
+  "holdout_episodes": 0,
+  "gate": {
+    "minimum_selected_success_count": 4,
+    "maximum_selected_hard_fall_count": 0
+  }
+}

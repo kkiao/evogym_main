@@ -1,0 +1,42 @@
+{
+  "version": "m2_3_2_phase_balanced_recurrent_bc_v1",
+  "frozen": true,
+  "stage": "hurdle_single",
+  "split": "train",
+  "teacher_training_only": true,
+  "student_model_path": "runs/height1_recurrent_dagger_student/height1_recurrent_dagger_seed7_v1/best_model.zip",
+  "student_model_sha256": "8ad4c30c52c96aad00b4c0898da785522a5f4acca2443fdfce0afd3adf2f78fd",
+  "demo_manifest_path": "config/m2_3_1_success_demo_manifest_v1.json",
+  "demo_manifest_sha256": "591a63b4704990ced2fce7a7839f0d39eb8165437ab783c4a6e6904382781170",
+  "demo_audit_path": "runs/rescue_demo_audit/m2_3_1_success_demo_audit_v1/summary.json",
+  "demo_audit_sha256": "8512c7cdaf28db215bcbfeafddc0f4247849179de35bbd8e0df774c1c3990169",
+  "reset_manifest_path": "config/m2_2_rescue_reset_manifest_v1.json",
+  "reset_manifest_sha256": "82197e5c97f729fb7f79a18493cc2cf8b41ce389a36b58af9f63637e02fea6bb",
+  "excluded_checkpoint_run": "m2_3_prefix_rescue_teacher_seed7_v1",
+  "demonstration_seeds": [100004, 100001, 100000, 100008],
+  "required_phases": [
+    "pre_hurdle",
+    "hurdle_deformation",
+    "post_clearance_recovery"
+  ],
+  "epochs": 4,
+  "learning_rate": 0.0001,
+  "maximum_gradient_norm": 0.5,
+  "weight_decay": 0.0,
+  "loss_aggregation": "equal_mean_across_required_phases_per_sequence",
+  "recurrent_state_at_takeover": "empty",
+  "update_modules": [
+    "lstm_actor",
+    "mlp_extractor.policy_net",
+    "action_net"
+  ],
+  "ppo_training_steps": 0,
+  "validation_episodes": 0,
+  "holdout_episodes": 0,
+  "gate": {
+    "minimum_success_count": 4,
+    "maximum_hard_fall_count": 1,
+    "maximum_safe_stall_count_exclusive": 9,
+    "require_post_clearance_recovery_visitation": true
+  }
+}

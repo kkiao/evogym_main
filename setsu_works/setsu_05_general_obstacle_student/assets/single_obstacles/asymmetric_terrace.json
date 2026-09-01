@@ -1,0 +1,38 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d2_s106_asymmetric_terrace",
+  "split": "train",
+  "seed": 106,
+  "difficulty": 2,
+  "width": 51,
+  "height": 10,
+  "finish_x": 46,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "asymmetric_terrace",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "family": "terrace",
+      "intended_skill": "asymmetric_step_control",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "上りと下りの長さが異なる非対称台地。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 20,
+      "end_x": 25
+    }
+  ]
+}

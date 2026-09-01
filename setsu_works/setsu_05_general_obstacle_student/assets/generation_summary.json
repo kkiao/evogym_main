@@ -1,0 +1,23 @@
+{
+  "templates": 12,
+  "single_obstacle_courses": 12,
+  "composite_courses": 7,
+  "maximum_candidate_height": 2,
+  "minimum_gap_voxels": 15,
+  "empirically_verified_templates": [
+    "low_hurdle"
+  ],
+  "geometry_screened_templates": [
+    "low_platform_short",
+    "low_platform_body_width",
+    "triangular_mound",
+    "staircase_plateau",
+    "asymmetric_terrace",
+    "narrow_high_hurdle",
+    "short_high_block",
+    "double_peak",
+    "stepped_wave",
+    "terraced_wedge",
+    "broad_mound"
+  ]
+}

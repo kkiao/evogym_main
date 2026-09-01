@@ -1,0 +1,18 @@
+{
+  "run_name": "level0_long_legged_gap3_seed7_consolidate_v2",
+  "body_name": "long_legged",
+  "curriculum_level": 0,
+  "completed_timesteps": 61440,
+  "target_timesteps": 60000,
+  "best_score": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.502336806536746,
+    112.31402083922046
+  ],
+  "best_timesteps": 15000,
+  "updated_at_utc": "2026-08-30T07:00:22.822314+00:00"
+}

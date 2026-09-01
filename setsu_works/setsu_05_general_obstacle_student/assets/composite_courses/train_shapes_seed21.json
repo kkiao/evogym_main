@@ -1,0 +1,116 @@
+{
+  "version": "general_grounded_obstacles_v1",
+  "course_id": "train_d2_s21_low_platform_short-staircase_plateau-staircase_plateau-triangular_mound-staircase_plateau",
+  "split": "train",
+  "seed": 21,
+  "difficulty": 2,
+  "width": 149,
+  "height": 10,
+  "finish_x": 144,
+  "robot_start": [
+    2,
+    1
+  ],
+  "minimum_gap_voxels": 15,
+  "obstacles": [
+    {
+      "name": "low_platform_short",
+      "heights": [
+        1,
+        1,
+        1
+      ],
+      "family": "platform",
+      "intended_skill": "climb_walk_down",
+      "difficulty": 1,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "低く短い台で、登った後も歩行を継続できる。",
+      "width": 3,
+      "max_height": 1,
+      "start_x": 20,
+      "end_x": 22
+    },
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 41,
+      "end_x": 46
+    },
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 69,
+      "end_x": 74
+    },
+    {
+      "name": "triangular_mound",
+      "heights": [
+        1,
+        2,
+        1
+      ],
+      "family": "mound",
+      "intended_skill": "step_up_and_down",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "体素を積み上げた三角形輪郭の小丘。",
+      "width": 3,
+      "max_height": 2,
+      "start_x": 98,
+      "end_x": 100
+    },
+    {
+      "name": "staircase_plateau",
+      "heights": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "family": "stairs",
+      "intended_skill": "stair_walk",
+      "difficulty": 2,
+      "split": "train",
+      "empirical_status": "geometry_screened",
+      "description": "二段の上昇、短い台、二段の下降からなる階段。",
+      "width": 6,
+      "max_height": 2,
+      "start_x": 118,
+      "end_x": 123
+    }
+  ]
+}
