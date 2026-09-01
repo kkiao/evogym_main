@@ -1,5 +1,2 @@
-neat-python @ git+https://github.com/yunshengtian/neat-python@2762ab630838520ca6c03a866e8a158f592b0370
-GPyOpt @ git+https://github.com/yunshengtian/GPyOpt@5fc1188ffdefea9a3bc7964a9414d4922603e904
-stable-baselines3
-imageio
-pygifsicle
+# coding: utf-8
+-r PPOを用いた段階的越障学習と階層制御/requirements/general_student.txt
