@@ -6,9 +6,85 @@
 
 固定身体に対する強化学習に加え、身体を突然変異させ、短期学習後の評価値を基準に次世代の身体を選ぶ仕組みを実装しました。これにより、「動作を学習する方策」と「移動に適した身体構造」を同時に探索するための基礎を作成しています。
 
-## 使用した環境と方法
+## ディレクトリ構成
 
-### 自作方策ネットワーク
+```
+text
+自作強化学習と身体変化/
+├─ README.md
+├─ src/
+│  ├─ body.py            身体定義と突然変異
+│  ├─ policy.py          自作方策ネットワーク
+│  ├─ reinforce.py       自作REINFORCE
+│  ├─ evolve.py          身体選択と世代更新
+│  ├─ train_fixed.py     保存身体の追加学習
+│  ├─ render_demo.py     保存方策のGIF生成
+│  ├─ plot_results.py    学習・進化曲線の生成
+│  └─ check_env.py       環境の動作確認
+├─ results/              身体、方策、CSV、グラフ、GIF
+└─ bodychange_test.py    身体突然変異の簡易確認
+```
+
+
+## 実行方法
+
+・実行するコードは主にtrain_fixed.pyとrender_demo.pyです。
+実行する際は、python -m スクリプト名（.pyは含めない）で実行します
+
+## 必要な環境
+
+●Python3.7から3.10で動作します
+
+●要件
+Python3
+Visual Studios(C++でのデスクトップ開発をインストール)
+Cmake
+PyTorch
+
+●インストール
+
+[リポジトリとサブモジュールをダウンロード]
+git clone --recurse-submodules https://github.com/EvolutionGym/evogym.git
+[evogymダウンロード]
+pip install -e .
+[画像等の出力と強化学習（PROなど）を実行させるライブラリインポート]
+pip install stable-baselines3 imageio pygifsicle
+[NEATとベイズ最適化のインストール]
+pip install git+https://github.com/yunshengtian/neat-python@2762ab630838520ca6c03a866e8a158f592b0370
+pip install git+https://github.com/yunshengtian/GPyOpt@5fc1188ffdefea9a3bc7964a9414d4922603e904
+
+
+## 必要ライブラリ（上記のインストールを行うと全て入ります）
+【A】Python 基盤ライブラリ
+・numpy
+・gym
+・pybind11 
+【B】機械学習・計算ライブラリ
+・torch (PyTorch)
+・stable-baselines3
+・scipy
+【C】改造ライブラリ
+・neat-python　
+・GPyOpt
+【D】画像等の出力
+imageio (動画保存用)
+pygifsicle (GIFの最適化用)
+matplotlib (グラフ描画用)
+
+## 実行したスクリーンショット
+
+
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/988dae9e-96b7-4f3b-b2df-b21ce87eb594" />
+
+
+## 工夫した点
+
+進化する際に体の一つだけの筋肉をへんかさせる事で、ランダム性と安定性を確保した。
+
+また、学習結果をグラフ化するときに全ての学習結果を出力するとデータにばらつきがあり結果が分かりにくかった。
+その為、複数回数のデータの平均をとることで分かりやすくした。
+
+## 自作方策ネットワーク
 
 観測値を入力し、64ユニットの全結合層と `Tanh` を通して、各アクチュエータの行動平均を出力します。
 
@@ -88,42 +164,9 @@
 
 ![固定身体の学習後](results/fixed_after.gif)
 
-## ディレクトリ構成
-
-```text
-自作強化学習と身体変化/
-├─ README.md
-├─ src/
-│  ├─ body.py            身体定義と突然変異
-│  ├─ policy.py          自作方策ネットワーク
-│  ├─ reinforce.py       自作REINFORCE
-│  ├─ evolve.py          身体選択と世代更新
-│  ├─ train_fixed.py     保存身体の追加学習
-│  ├─ render_demo.py     保存方策のGIF生成
-│  ├─ plot_results.py    学習・進化曲線の生成
-│  └─ check_env.py       環境の動作確認
-├─ results/              身体、方策、CSV、グラフ、GIF
-└─ bodychange_test.py    身体突然変異の簡易確認
 ```
 
-## 環境構築
 
-リポジトリのルートで以下を実行します。
-
-```powershell
-py -3.10 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r .\requirements.txt
-```
-
-## 実行方法
-
-PowerShellで本ディレクトリへ移動します。
-
-```powershell
-Set-Location ".\自作強化学習と身体変化"
-$env:PYTHONPATH = (Get-Location).Path
-```
 
 ### 環境確認
 
