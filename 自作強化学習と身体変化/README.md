@@ -142,27 +142,11 @@ matplotlib (グラフ描画用)
 
 ![選択身体の学習曲線](results/best_learning_curve.png)
 
-学習前：
-
-![選択身体の学習前](results/best_before.gif)
-
-学習後：
-
-![選択身体の学習後](results/best_after.gif)
-
 ### 固定身体の学習
 
 固定身体では最初の20エピソードの平均報酬 `0.029` に対し、最後の20エピソードは `0.094` となりました。
 
 ![固定身体の学習曲線](results/fixed_learning_curve.png)
-
-学習前：
-
-![固定身体の学習前](results/fixed_before.gif)
-
-学習後：
-
-![固定身体の学習後](results/fixed_after.gif)
 
 ```
 
