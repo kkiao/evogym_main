@@ -71,11 +71,6 @@ imageio (動画保存用)
 pygifsicle (GIFの最適化用)
 matplotlib (グラフ描画用)
 
-## 実行したスクリーンショット
-
-
-<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/988dae9e-96b7-4f3b-b2df-b21ce87eb594" />
-
 
 ## 工夫した点
 
