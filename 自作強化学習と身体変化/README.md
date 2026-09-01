@@ -55,17 +55,21 @@ pip install git+https://github.com/yunshengtian/GPyOpt@5fc1188ffdefea9a3bc7964a9
 
 
 ## 必要ライブラリ（上記のインストールを行うと全て入ります）
+
 【A】Python 基盤ライブラリ
 ・numpy
 ・gym
 ・pybind11 
+
 【B】機械学習・計算ライブラリ
 ・torch (PyTorch)
 ・stable-baselines3
 ・scipy
+
 【C】改造ライブラリ
 ・neat-python　
 ・GPyOpt
+
 【D】画像等の出力
 imageio (動画保存用)
 pygifsicle (GIFの最適化用)
